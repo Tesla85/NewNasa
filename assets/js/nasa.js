@@ -1,15 +1,15 @@
-console.log("Hi")
-gapi.load('client', function () {
-    gapi.client.init({
-        "apiKey": "AIzaSyDmUrAQsG5BGpvJOlVy8Ch4Odkg8anh2I4"
-    });
-});
+// console.log("Hi")
+// gapi.load('client', function () {
+//     gapi.client.init({
+//         "apiKey": "AIzaSyDmUrAQsG5BGpvJOlVy8Ch4Odkg8anh2I4"
+//     });
+// });
 var queryParam = document.location.search
 console.log(queryParam);
 
 if (queryParam) {
     displayImages(queryParam);
-    displayVideos(queryParam);
+    // displayVideos(queryParam);
 }
 else {
 };
