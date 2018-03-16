@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Univese Explorer</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Geostar|Orbitron:700|Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="col s12">
+          <div class="nav-wrapper">
+            <nav class="grey darken-3">
+              <div class="nav-wrapper">
+                <h1>Universe Explorer</h1>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li>
+                    <a href="index.html">Startpage</a>
+                  </li>
+                  <li>
+                    <a href="rated-images.html">Rated images</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="http://www.basicknowledge101.com/photos/2015/space/Elephant-4214115.jpg">
+              <span class="card-title">The Explorer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          <nav>
+            <div class="nav-wrapper grey darken">
+              <form>
+                <div class="input-field">
+                  <input id="user-input" type="search" required>
+                  <label class="label-icon" for="search">
+                    <i class="material-icons">search</i>
+                  </label>
+                  <i class="material-icons">close</i>
+                  <button id="search-button" class="btn waves-effect waves-light blue darken-4" type="submit" name="action">Search
+                    <i class="material-icons right">send</i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </nav>
+        </div>
+
+        <div class="col s6">
+          <div class="video">
+            <iframe width="100%" height="360" src="https://www.youtube.com/embed/yWo71eHjoQY?list=PLGMVCsud2sqU2tzV1De6z1HhZgp-fIiX1"
+              allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer class="page-footer grey darken-3">
+    <div class="footer-copyright">
+      <div class="container align-center">
+        © 2018 Copyright
+        <a class="grey-text text-lighten-3 right" href="#!">The Universe Explorer</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script type="text/javascript" src="assets/js/nasa.js"></script>
+</body>
+
+</html>

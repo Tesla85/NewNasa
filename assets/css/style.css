@@ -1,0 +1,31 @@
+ body {
+    /* background-image: url("../images/background.jpg"); */
+    background-color: black;
+    background-repeat: no-repeat;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Geostar', cursive;
+    } 
+    
+    
+    .footer-copyright {
+        text-align: center;
+    }
+    
+    .page-footer {
+        min-height: 100px;
+        max-height: 100px;
+    }
+    
+    .start-image {
+        height: 100px;
+    }
+    
+    nav i.material-icons {
+        display: block;
+        font-size: 24px;
+        height: 56px;
+    }
+
+
