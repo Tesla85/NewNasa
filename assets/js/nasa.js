@@ -78,7 +78,7 @@ $("button[type=submit]").click(function (event) {
 
     var keyword = $("#user-input").val().trim();
     if (!keyword) {
-        alert("Do I look like a mind reader? Please enter a keyword.");
+        alert("Please fill out a search term.");
         return;
     }
 
